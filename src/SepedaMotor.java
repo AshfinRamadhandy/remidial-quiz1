@@ -11,10 +11,11 @@
 public class SepedaMotor {
     public String nama;
     public String jenis;
-
-    public SepedaMotor(String nama, String jenis) {
+    public String transmisi;
+    public SepedaMotor(String nama,String transmisi, String jenis) {
         this.nama = nama;
         this.jenis = jenis;
+        this.transmisi = transmisi;
     }
 
     public String getNama() {
@@ -33,5 +34,11 @@ public class SepedaMotor {
         this.jenis = jenis;
     }
     
+    public String gettransmisi(){
+        return transmisi;
+    }
     
+    public void settransmisi(String transmisi){
+        this.transmisi = transmisi;
+    }
 }
