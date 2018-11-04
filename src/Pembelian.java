@@ -12,9 +12,9 @@ public class Pembelian {
     public SepedaMotor beliMotor;
     public Pembeli pembeli;
 
-    public Pembelian(SepedaMotor beliMotor, Pembeli pembeli) {
-        this.beliMotor = beliMotor;
-        this.pembeli = pembeli;
+    void Pembelian(Pembeli orang, SepedaMotor motor) {
+        pembeli = orang;
+        beliMotor = motor;
     }
 
    
