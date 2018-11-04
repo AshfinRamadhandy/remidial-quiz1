@@ -9,20 +9,16 @@
  * @author Dhandy
  */
 public class SepedaMotor {
-    public String nama;
+    public String Merk;
     public String jenis;
 
-    public SepedaMotor(String nama, String jenis) {
-        this.nama = nama;
-        this.jenis = jenis;
+
+    public String getMerk() {
+        return Merk;
     }
 
-    public String getNama() {
-        return nama;
-    }
-
-    public void setNama(String nama) {
-        this.nama = nama;
+    public void setMerk(String Merk) {
+        this.Merk = Merk;
     }
 
     public String getJenis() {
