@@ -21,11 +21,22 @@ public class main {
         Manual l = new Manual();
        
         
-        beli.setNama("Alucard Hariaydi");
+        beli.setNama("Bpk. Alucard Hariaydi");
         beli.setAlamat("Jln. Kingking no 72");
         
         motor.setMerk("Honda Vario 125");
         motor.setJenis("Matic");
+        
+         belian.pembelian(beli, motor);
+        belian.dataPembelian();
+        
+        System.out.println("-----------------------------------------");
+        
+        beli.setNama("Bpk. Lancelot");
+        beli.setAlamat("Perumahan gedong Ombo");
+        
+        motor.setMerk("Yamaha Juputer MX 150");
+        motor.setJenis("Manual");
         
         belian.pembelian(beli, motor);
         belian.dataPembelian();
