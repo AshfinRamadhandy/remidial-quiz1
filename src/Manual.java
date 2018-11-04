@@ -8,15 +8,16 @@
  *
  * @author Dhandy
  */
-public class Matic extends SepedaMotor{
+public class Manual {
     public String nama;
 
-    public Matic(String nama) {
-        this.nama = nama;
+    
+    Manual(){
+        
     }
-
-    Matic() {
-       
+    
+    public Manual(String nama) {
+        this.nama = nama;
     }
 
     public String getNama() {

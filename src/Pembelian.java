@@ -10,19 +10,19 @@
  */
 public class Pembelian {
     public SepedaMotor beliMotor;
-    public Pembeli pembeli;
+    public Pembeli orang;
 
-    void Pembelian(Pembeli orang, SepedaMotor motor) {
-        pembeli = orang;
+    void pembelian(Pembeli beli, SepedaMotor motor) {
+        orang = beli;
         beliMotor = motor;
     }
 
    
    void dataPembelian(){
        System.out.println("Data Pembelian Sepeda Motor");
-       System.out.println("Nama : "+pembeli.getNama());
-       System.out.println("Alamat : "+pembeli.getAlamat());
-       System.out.println("Beli Sepeda Motor : "+beliMotor.Merk);
-       System.out.println("Dengan Transmisi : "+beliMotor.jenis);
+       System.out.println("Nama : "+orang.getNama());
+       System.out.println("Alamat : "+orang.getAlamat());
+       System.out.println("Beli Sepeda Motor : "+beliMotor.getMerk());
+       System.out.println("Dengan Transmisi : "+beliMotor.getJenis());
    }
 }
